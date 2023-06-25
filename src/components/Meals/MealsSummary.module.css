@@ -1,0 +1,51 @@
+.summaryDetail{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 40px;
+    padding: 20px;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+.leftSection{
+    max-width: 550px;
+}
+.summaryHeading{
+    font-size: 58px;
+    margin: 16px 0;
+}
+.bottomStyle{
+    background-image: url('../../assets/bottomUnderline.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.summaryAbout{
+    font-size: 24px;
+    margin: 8px 0;
+}
+.summaryAbout2{
+    margin: 10px 0;
+}
+
+.headerImg{
+    width: 600px;
+    height: 506px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:
+    url('../../assets/meal1.svg'),url('../../assets/meal2.svg'),url('../../assets/meal3.svg'),
+    url('../../assets/meal4.svg'),url('../../assets/Card.svg'),url('../../assets/SeekPng.svg'),
+    url('../../assets/customerreview.svg'),url('../../assets/emojiFire.svg');
+    background-size: cover 1px;
+    background-repeat: no-repeat;
+    background-position: left 10px bottom 40px ,right 20px bottom,top right 40px,left 60px top,
+    top 40% left -30px,top 72px right 130px,bottom -40px center,top 40px left 50%;
+    
+    }
+    .headerImg img{
+    width: 300px;
+    
+   } 
+    

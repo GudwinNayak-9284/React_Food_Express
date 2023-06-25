@@ -1,0 +1,30 @@
+.cartBtn{
+    padding: 14px;
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    width: fit-content;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: #F65F5F;
+    border-radius: 30px;
+    border: none;
+} 
+.icon{
+    margin: 0 6px;
+}
+.count{
+    margin: 0 6px;
+    border-radius: 50%;
+    background: rgb(44, 42, 42);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}

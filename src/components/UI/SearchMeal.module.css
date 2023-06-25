@@ -1,0 +1,48 @@
+.inputcontainer {
+    position: relative;
+    display:flex;
+    width: fit-content;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .custominput {
+    width: 471px;
+    height: 54px;
+    font-size: 18px;
+    background: #0d0d0d;
+    border: 0.5px solid #fff;
+    border-radius: 100px;
+    padding-left: 54px; /* Adjust the padding to make space for the icon */
+    color: #fff;
+    outline: none;
+  }
+  
+  .iconcontainer {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 16px; /* Adjust the left position to align the icon */
+    transform: translateY(-50%);
+  }
+  
+  .searchicon {
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Adjust the size of the icon */
+  }
+  .container_2{
+    position:absolute;
+    display: flex;
+    right: 10px;
+  }
+  
+  .searchicon_2{
+    background: #FDCE77;
+    font-size: 24px;
+    display: flex;
+    padding: 6px;
+    display: flex;
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+  }

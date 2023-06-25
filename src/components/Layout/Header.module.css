@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 80px;
+    justify-content: space-between;
+    padding:  0 12px;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.ulList{
+    display: flex;
+    width: fit-content;
+}
+.LogoImg{
+    margin: 10px 10px;
+}
+li{
+    list-style: none;
+    width: fit-content;
+    margin:0 16px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+
+

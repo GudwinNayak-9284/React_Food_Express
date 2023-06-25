@@ -1,0 +1,29 @@
+.mealsList{
+   height: 100%;
+   width: 100%; 
+}
+.mealItems{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 5px;
+   justify-content: center;
+   flex-direction: row;
+}
+.offerSummary{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin: 50px 10px;
+}
+.offerSummary p{
+   max-width: 850px;
+}
+.offerHeading{
+   font-size: 48px;
+   font-weight: 700;
+}
+.offerHeading span{
+   color: #F54748;
+}
